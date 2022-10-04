@@ -1,14 +1,14 @@
 .bd-sidebar-header, 
-[aria-controls="settings-tab"], 
-[aria-controls="emotes-tab"], 
-[aria-controls="customcss-tab"], 
-[aria-controls="plugins-tab"],
-[aria-controls="themes-tab"], 
-[aria-controls="themes-tab"]      + .separator-2wx7h6, 
-[aria-controls="pluginrepo-tab"], 
-[aria-controls="pluginrepo-tab"] + .separator-2wx7h6, 
-[aria-controls="themerepo-tab"] + .separator-2wx7h6, 
-[aria-controls="themerepo-tab"]{
+[aria-controls="bd-settings-tab"], 
+[aria-controls="bd-emotes-tab"], 
+[aria-controls="bd-customcss-tab"], 
+[aria-controls="bd-plugins-tab"],
+[aria-controls="bd-themes-tab"], 
+[aria-controls="bd-themes-tab"]      + .separator-2wx7h6, 
+[aria-controls="bd-pluginrepo-tab"], 
+[aria-controls="bd-pluginrepo-tab"] + .separator-2wx7h6, 
+[aria-controls="bd-themerepo-tab"] + .separator-2wx7h6, 
+[aria-controls="bd-themerepo-tab"]{
   order: -1;
 }
 .sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
