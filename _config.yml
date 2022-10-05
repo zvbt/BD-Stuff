@@ -1,5 +1,1 @@
-theme: jekyll-simple-dark
-plugins:
-- jekyll-paginate
-paginate: 5 # Posts per page
-paginate_path: "page:num/"
+remote_theme: "dracula/gh-pages"
