@@ -1,0 +1,197 @@
+/* Youtube */
+.messageContent-2t3eCI a[href^="https://youtube.com"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://youtube.com"]:not([href*="channels"])::after
+{
+    content: "Youtube.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #ff000088;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* Twitch */
+.messageContent-2t3eCI a[href^="https://twitch.tv"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://twitch.tv"]:not([href*="channels"])::after
+{
+    content: "Twitch.tv";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #6f00ff88;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* Tiktok */
+.messageContent-2t3eCI a[href^="https://tiktok.com"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://tiktok.com"]:not([href*="channels"])::after
+{
+    content: "TikTok.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #007e9e88;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* Spotify */
+.messageContent-2t3eCI a[href^="https://spotify.com"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://spotify.com"]:not([href*="channels"])::after
+{
+    content: "Youtube.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #00ff1588;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* Twitter */
+.messageContent-2t3eCI a[href^="https://twitter.com"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://twitter.com"]:not([href*="channels"])::after
+{
+    content: "Twitter.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #00c3ff88;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* Instagram */
+.messageContent-2t3eCI a[href^="https://www.instagram.com/"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://www.instagram.com/"]:not([href*="channels"])::after
+{
+    content: "Instagram.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #ff00ff88;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* Crunhyroll */
+.messageContent-2t3eCI a[href^="https://www.crunchyroll.com/"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://www.crunchyroll.com/"]:not([href*="channels"])::after
+{
+    content: "Crunhyroll.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #ff730088;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* reddit */
+.messageContent-2t3eCI a[href^="https://www.reddit.com/"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://www.reddit.com/"]:not([href*="channels"])::after
+{
+    content: "Reddit.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #ff480088;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+/* soundcloud */
+.messageContent-2t3eCI a[href^="https://www.soundcloud.com/"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://www.soundcloud.com/"]:not([href*="channels"])::after
+{
+    content: "SoundCloud.com";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: #ff660088;
+    color: white;
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
