@@ -1,1 +1,5 @@
-remote_theme: son-link/jekyll-simple-dark
+theme: jekyll-simple-dark
+plugins:
+- jekyll-paginate
+paginate: 5 # Posts per page
+paginate_path: "page:num/"
