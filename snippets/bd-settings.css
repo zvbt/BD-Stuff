@@ -1,26 +1,87 @@
-.bd-sidebar-header, 
-[aria-controls="bd-settings-tab"], 
-[aria-controls="bd-emotes-tab"], 
-[aria-controls="bd-customcss-tab"], 
-[aria-controls="bd-plugins-tab"],
-[aria-controls="bd-themes-tab"], 
-[aria-controls="bd-themes-tab"]      + .separator-2wx7h6, 
-[aria-controls="bd-pluginrepo-tab"], 
-[aria-controls="bd-pluginrepo-tab"] + .separator-2wx7h6, 
-[aria-controls="bd-themerepo-tab"] + .separator-2wx7h6, 
-[aria-controls="bd-themerepo-tab"]{
-  order: -1;
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ProfileBannerSkins.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css);
+
+
+/* BorderRoles Made by <@750099582779916469> */
+:root{
+    --roles-roundness: 0; /* change the 0 to any other number if you want the roles to be fully round */
+  
+    --roles-roundness-calc: calc((var(--roles-roundness) + .21) * 25px)
+  }
+  .role-2TIOKu {
+    transform: translate(0);
+    border: 0;
+    border-radius: var(--roles-roundness-calc);
+  }
+  .role-2TIOKu .roleRemoveIcon-387wKV {
+    margin: 0;
+    left: unset;
+    transform: translate(50%,-50%);
+  }
+  .role-2TIOKu .roleRemoveButton-17oXnT{position: static}
+  .role-2TIOKu .roleCircle-3K9O3d:before {
+    content: '';
+    top: 0;left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    background: inherit;
+    border-radius: var(--roles-roundness-calc);
+    border: 2px solid transparent;
+    -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+  }
+
+
+/* edited text by <@755436063828213821> */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+        content: " (" attr(aria-label) ")";
+        color: var(--text-muted);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: lowercase;
 }
-.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
-    justify-content: unset;
-    flex: unset
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+    display: none;
 }
-.contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {
-    max-width: unset;
+
+
+
+/* Make Discord's Toasts look like BD's FIXED by <@538487970408300544> */
+.toast-1DEQGy,
+.toast-q3Y4wI {
+    background: #43b581 !important;
+    transform: translateY(10px);
+    padding: 6px 10px 6px 10px !important;
+    border-radius: 5px;
+    box-shadow: var(--elevation-medium), var(--elevation-stroke);
+    font-weight: 500;
+    color: var(--header-primary);
+    opacity: 1;
+    margin-top: 10px;
 }
-.accountProfileCard-lbN7n- {
-    max-width: 750px;
+
+.toast-1DEQGy .icon-q80NJC > path,
+.toast-q3Y4wI .icon-2QUmmw > path {
+    d: none !important;
 }
-.notificationSettings-1U0JsJ {
-    max-width: 45%;
+
+.toast-1DEQGy .icon-q80NJC,
+.toast-q3Y4wI .icon-2QUmmw {
+    height: 20px !important;
+    width: 20px !important;
+    margin-top: 0 !important;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTIgMkM2LjQ4IDIgMiA2LjQ4IDIgMTJzNC40OCAxMCAxMCAxMCAxMC00LjQ4IDEwLTEwUzE3LjUyIDIgMTIgMnptLTIgMTVsLTUtNSAxLjQxLTEuNDFMMTAgMTQuMTdsNy41OS03LjU5TDE5IDhsLTkgOXoiLz48L3N2Zz4=);
+    background-size: 20px 20px;
+}
+
+.toast-1DEQGy .colorHeaderPrimary-26Jzh-,
+.toast-q3Y4wI .colorHeaderPrimary-jN_yGr {
+    font-size: 14px !important;
+    line-height: 20px !important;
 }
